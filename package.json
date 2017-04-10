@@ -1,0 +1,12 @@
+{
+  "name": "check-good-party",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "got": "^6.7.1"
+  }
+}
