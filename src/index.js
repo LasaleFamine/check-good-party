@@ -18,5 +18,7 @@ got('https://api.github.com/repos/milano-js/good-party-2017/issues', {
                       })
                       .sort((a, b) => b.reactions - a.reactions)
 
-  console.log(reactions)
+  reactions.forEach((react, i) => {
+    console.log(`${i + 1} place:`, react)
+  })
 })
